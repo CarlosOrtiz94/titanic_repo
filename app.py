@@ -25,6 +25,8 @@ st.dataframe(data.describe())
 
 # Visualización
 
+st.header('Visualización')
+
 fig, ax = plt.subplots(1, 4, sharey=True, figsize=(16, 4))
 ax[0].set_ylabel('%')
 
