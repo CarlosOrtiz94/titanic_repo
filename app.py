@@ -62,7 +62,7 @@ with col1:
   
 with col2:
   st.header('Boleto')
-  clase = st.selectbox('Clase', (1, 2, 3)
+  clase = st.selectbox('Clase', (1, 2, 3))
   edad = st.slider('Edad', 0, 99)
   fare = st.slider('Disposición a pagar por el boleto', 0, 500)
 
